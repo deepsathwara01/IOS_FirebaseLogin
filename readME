@@ -1,0 +1,5 @@
+Create pod init
+open podfile
+  	- pod ‘Firebase/Auth’
+	- pod ‘GoogleSignin’
+pod install
