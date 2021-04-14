@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		334B7CA0A6F0ADBF70781116 /* Pods_signinUsing_google_signinUsing_googleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0CC019D459753C34C454254 /* Pods_signinUsing_google_signinUsing_googleUITests.framework */; };
+		6E9BE4D2DEE4EA2209CA98BA /* Pods_signinUsing_google.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85D37129EDD91799EF761D5 /* Pods_signinUsing_google.framework */; };
+		9B834E272605740C00639F07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B834E262605740C00639F07 /* AppDelegate.swift */; };
+		9B834E292605740C00639F07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B834E282605740C00639F07 /* SceneDelegate.swift */; };
+		9B834E2B2605740C00639F07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B834E2A2605740C00639F07 /* ContentView.swift */; };
+		9B834E2D2605740D00639F07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B834E2C2605740D00639F07 /* Assets.xcassets */; };
+		9B834E302605740D00639F07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B834E2F2605740D00639F07 /* Preview Assets.xcassets */; };
+		9B834E332605740D00639F07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B834E312605740D00639F07 /* LaunchScreen.storyboard */; };
+		9B834E3E2605740D00639F07 /* signinUsing_googleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B834E3D2605740D00639F07 /* signinUsing_googleTests.swift */; };
+		9B834E492605740D00639F07 /* signinUsing_googleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B834E482605740D00639F07 /* signinUsing_googleUITests.swift */; };
+		9B834E6C2605768E00639F07 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B834E6B2605768E00639F07 /* GoogleService-Info.plist */; };
+		AA8A5E6A8633D3819A6F1102 /* Pods_signinUsing_googleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E906604D48401AC898A03CC5 /* Pods_signinUsing_googleTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B834E3A2605740D00639F07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B834E1B2605740C00639F07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B834E222605740C00639F07;
+			remoteInfo = "signinUsing google";
+		};
+		9B834E452605740D00639F07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B834E1B2605740C00639F07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B834E222605740C00639F07;
+			remoteInfo = "signinUsing google";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06204A2F1AF51B83EE289FE9 /* Pods-signinUsing googleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-signinUsing googleTests.debug.xcconfig"; path = "Target Support Files/Pods-signinUsing googleTests/Pods-signinUsing googleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		259613E2127D45F876A06204 /* Pods-signinUsing google-signinUsing googleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-signinUsing google-signinUsing googleUITests.debug.xcconfig"; path = "Target Support Files/Pods-signinUsing google-signinUsing googleUITests/Pods-signinUsing google-signinUsing googleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		25BBA9F0A54650C968F314E4 /* Pods-signinUsing google.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-signinUsing google.release.xcconfig"; path = "Target Support Files/Pods-signinUsing google/Pods-signinUsing google.release.xcconfig"; sourceTree = "<group>"; };
+		37085785A65EA8CBB955ED9D /* Pods-signinUsing google-signinUsing googleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-signinUsing google-signinUsing googleUITests.release.xcconfig"; path = "Target Support Files/Pods-signinUsing google-signinUsing googleUITests/Pods-signinUsing google-signinUsing googleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9B834E232605740C00639F07 /* signinUsing google.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "signinUsing google.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B834E262605740C00639F07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B834E282605740C00639F07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9B834E2A2605740C00639F07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B834E2C2605740D00639F07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B834E2F2605740D00639F07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B834E322605740D00639F07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B834E342605740D00639F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B834E392605740D00639F07 /* signinUsing googleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "signinUsing googleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B834E3D2605740D00639F07 /* signinUsing_googleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signinUsing_googleTests.swift; sourceTree = "<group>"; };
+		9B834E3F2605740D00639F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B834E442605740D00639F07 /* signinUsing googleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "signinUsing googleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B834E482605740D00639F07 /* signinUsing_googleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signinUsing_googleUITests.swift; sourceTree = "<group>"; };
+		9B834E4A2605740D00639F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B834E6B2605768E00639F07 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9C3220E0DE170868012EA460 /* Pods-signinUsing googleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-signinUsing googleTests.release.xcconfig"; path = "Target Support Files/Pods-signinUsing googleTests/Pods-signinUsing googleTests.release.xcconfig"; sourceTree = "<group>"; };
+		A0CC019D459753C34C454254 /* Pods_signinUsing_google_signinUsing_googleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_signinUsing_google_signinUsing_googleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B8F86B8A941B1B199E9E43 /* Pods-signinUsing google.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-signinUsing google.debug.xcconfig"; path = "Target Support Files/Pods-signinUsing google/Pods-signinUsing google.debug.xcconfig"; sourceTree = "<group>"; };
+		E906604D48401AC898A03CC5 /* Pods_signinUsing_googleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_signinUsing_googleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85D37129EDD91799EF761D5 /* Pods_signinUsing_google.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_signinUsing_google.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B834E202605740C00639F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9BE4D2DEE4EA2209CA98BA /* Pods_signinUsing_google.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B834E362605740D00639F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8A5E6A8633D3819A6F1102 /* Pods_signinUsing_googleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B834E412605740D00639F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334B7CA0A6F0ADBF70781116 /* Pods_signinUsing_google_signinUsing_googleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14605C09B491734F934A7B9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7B8F86B8A941B1B199E9E43 /* Pods-signinUsing google.debug.xcconfig */,
+				25BBA9F0A54650C968F314E4 /* Pods-signinUsing google.release.xcconfig */,
+				259613E2127D45F876A06204 /* Pods-signinUsing google-signinUsing googleUITests.debug.xcconfig */,
+				37085785A65EA8CBB955ED9D /* Pods-signinUsing google-signinUsing googleUITests.release.xcconfig */,
+				06204A2F1AF51B83EE289FE9 /* Pods-signinUsing googleTests.debug.xcconfig */,
+				9C3220E0DE170868012EA460 /* Pods-signinUsing googleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1D099F56441C7400532BDE44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F85D37129EDD91799EF761D5 /* Pods_signinUsing_google.framework */,
+				A0CC019D459753C34C454254 /* Pods_signinUsing_google_signinUsing_googleUITests.framework */,
+				E906604D48401AC898A03CC5 /* Pods_signinUsing_googleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B834E1A2605740C00639F07 = {
+			isa = PBXGroup;
+			children = (
+				9B834E252605740C00639F07 /* signinUsing google */,
+				9B834E3C2605740D00639F07 /* signinUsing googleTests */,
+				9B834E472605740D00639F07 /* signinUsing googleUITests */,
+				9B834E242605740C00639F07 /* Products */,
+				14605C09B491734F934A7B9F /* Pods */,
+				1D099F56441C7400532BDE44 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B834E242605740C00639F07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B834E232605740C00639F07 /* signinUsing google.app */,
+				9B834E392605740D00639F07 /* signinUsing googleTests.xctest */,
+				9B834E442605740D00639F07 /* signinUsing googleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B834E252605740C00639F07 /* signinUsing google */ = {
+			isa = PBXGroup;
+			children = (
+				9B834E262605740C00639F07 /* AppDelegate.swift */,
+				9B834E282605740C00639F07 /* SceneDelegate.swift */,
+				9B834E2A2605740C00639F07 /* ContentView.swift */,
+				9B834E6B2605768E00639F07 /* GoogleService-Info.plist */,
+				9B834E2C2605740D00639F07 /* Assets.xcassets */,
+				9B834E312605740D00639F07 /* LaunchScreen.storyboard */,
+				9B834E342605740D00639F07 /* Info.plist */,
+				9B834E2E2605740D00639F07 /* Preview Content */,
+			);
+			path = "signinUsing google";
+			sourceTree = "<group>";
+		};
+		9B834E2E2605740D00639F07 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9B834E2F2605740D00639F07 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B834E3C2605740D00639F07 /* signinUsing googleTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B834E3D2605740D00639F07 /* signinUsing_googleTests.swift */,
+				9B834E3F2605740D00639F07 /* Info.plist */,
+			);
+			path = "signinUsing googleTests";
+			sourceTree = "<group>";
+		};
+		9B834E472605740D00639F07 /* signinUsing googleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B834E482605740D00639F07 /* signinUsing_googleUITests.swift */,
+				9B834E4A2605740D00639F07 /* Info.plist */,
+			);
+			path = "signinUsing googleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B834E222605740C00639F07 /* signinUsing google */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B834E4D2605740D00639F07 /* Build configuration list for PBXNativeTarget "signinUsing google" */;
+			buildPhases = (
+				C91C9D3B616549D1A3198F97 /* [CP] Check Pods Manifest.lock */,
+				9B834E1F2605740C00639F07 /* Sources */,
+				9B834E202605740C00639F07 /* Frameworks */,
+				9B834E212605740C00639F07 /* Resources */,
+				36B004F3CC2A18475A6FC7C1 /* [CP] Embed Pods Frameworks */,
+				9A151C34117770289587FFA0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "signinUsing google";
+			productName = "signinUsing google";
+			productReference = 9B834E232605740C00639F07 /* signinUsing google.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B834E382605740D00639F07 /* signinUsing googleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B834E502605740D00639F07 /* Build configuration list for PBXNativeTarget "signinUsing googleTests" */;
+			buildPhases = (
+				9E4049D98C5ED613E54506C1 /* [CP] Check Pods Manifest.lock */,
+				9B834E352605740D00639F07 /* Sources */,
+				9B834E362605740D00639F07 /* Frameworks */,
+				9B834E372605740D00639F07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B834E3B2605740D00639F07 /* PBXTargetDependency */,
+			);
+			name = "signinUsing googleTests";
+			productName = "signinUsing googleTests";
+			productReference = 9B834E392605740D00639F07 /* signinUsing googleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B834E432605740D00639F07 /* signinUsing googleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B834E532605740D00639F07 /* Build configuration list for PBXNativeTarget "signinUsing googleUITests" */;
+			buildPhases = (
+				78FA4B9ECD75531FAD7F6466 /* [CP] Check Pods Manifest.lock */,
+				9B834E402605740D00639F07 /* Sources */,
+				9B834E412605740D00639F07 /* Frameworks */,
+				9B834E422605740D00639F07 /* Resources */,
+				6FBBE0A027500B182BC04785 /* [CP] Embed Pods Frameworks */,
+				38A279D1FE60C593E4060E26 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B834E462605740D00639F07 /* PBXTargetDependency */,
+			);
+			name = "signinUsing googleUITests";
+			productName = "signinUsing googleUITests";
+			productReference = 9B834E442605740D00639F07 /* signinUsing googleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B834E1B2605740C00639F07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9B834E222605740C00639F07 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					9B834E382605740D00639F07 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9B834E222605740C00639F07;
+					};
+					9B834E432605740D00639F07 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9B834E222605740C00639F07;
+					};
+				};
+			};
+			buildConfigurationList = 9B834E1E2605740C00639F07 /* Build configuration list for PBXProject "signinUsing google" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B834E1A2605740C00639F07;
+			productRefGroup = 9B834E242605740C00639F07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B834E222605740C00639F07 /* signinUsing google */,
+				9B834E382605740D00639F07 /* signinUsing googleTests */,
+				9B834E432605740D00639F07 /* signinUsing googleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B834E212605740C00639F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B834E332605740D00639F07 /* LaunchScreen.storyboard in Resources */,
+				9B834E6C2605768E00639F07 /* GoogleService-Info.plist in Resources */,
+				9B834E302605740D00639F07 /* Preview Assets.xcassets in Resources */,
+				9B834E2D2605740D00639F07 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B834E372605740D00639F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B834E422605740D00639F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36B004F3CC2A18475A6FC7C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-signinUsing google/Pods-signinUsing google-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-signinUsing google/Pods-signinUsing google-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-signinUsing google/Pods-signinUsing google-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38A279D1FE60C593E4060E26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-signinUsing google-signinUsing googleUITests/Pods-signinUsing google-signinUsing googleUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-signinUsing google-signinUsing googleUITests/Pods-signinUsing google-signinUsing googleUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-signinUsing google-signinUsing googleUITests/Pods-signinUsing google-signinUsing googleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FBBE0A027500B182BC04785 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-signinUsing google-signinUsing googleUITests/Pods-signinUsing google-signinUsing googleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-signinUsing google-signinUsing googleUITests/Pods-signinUsing google-signinUsing googleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-signinUsing google-signinUsing googleUITests/Pods-signinUsing google-signinUsing googleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78FA4B9ECD75531FAD7F6466 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-signinUsing google-signinUsing googleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A151C34117770289587FFA0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-signinUsing google/Pods-signinUsing google-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-signinUsing google/Pods-signinUsing google-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-signinUsing google/Pods-signinUsing google-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E4049D98C5ED613E54506C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-signinUsing googleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C91C9D3B616549D1A3198F97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-signinUsing google-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B834E1F2605740C00639F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B834E272605740C00639F07 /* AppDelegate.swift in Sources */,
+				9B834E292605740C00639F07 /* SceneDelegate.swift in Sources */,
+				9B834E2B2605740C00639F07 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B834E352605740D00639F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B834E3E2605740D00639F07 /* signinUsing_googleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B834E402605740D00639F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B834E492605740D00639F07 /* signinUsing_googleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B834E3B2605740D00639F07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B834E222605740C00639F07 /* signinUsing google */;
+			targetProxy = 9B834E3A2605740D00639F07 /* PBXContainerItemProxy */;
+		};
+		9B834E462605740D00639F07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B834E222605740C00639F07 /* signinUsing google */;
+			targetProxy = 9B834E452605740D00639F07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B834E312605740D00639F07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B834E322605740D00639F07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B834E4B2605740D00639F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B834E4C2605740D00639F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B834E4E2605740D00639F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7B8F86B8A941B1B199E9E43 /* Pods-signinUsing google.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"signinUsing google/Preview Content\"";
+				DEVELOPMENT_TEAM = 56FNQ2F2V8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "signinUsing google/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "login.signinUsing-google";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B834E4F2605740D00639F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25BBA9F0A54650C968F314E4 /* Pods-signinUsing google.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"signinUsing google/Preview Content\"";
+				DEVELOPMENT_TEAM = 56FNQ2F2V8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "signinUsing google/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "login.signinUsing-google";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B834E512605740D00639F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06204A2F1AF51B83EE289FE9 /* Pods-signinUsing googleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56FNQ2F2V8;
+				INFOPLIST_FILE = "signinUsing googleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "login.signinUsing-googleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/signinUsing google.app/signinUsing google";
+			};
+			name = Debug;
+		};
+		9B834E522605740D00639F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C3220E0DE170868012EA460 /* Pods-signinUsing googleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56FNQ2F2V8;
+				INFOPLIST_FILE = "signinUsing googleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "login.signinUsing-googleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/signinUsing google.app/signinUsing google";
+			};
+			name = Release;
+		};
+		9B834E542605740D00639F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 259613E2127D45F876A06204 /* Pods-signinUsing google-signinUsing googleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56FNQ2F2V8;
+				INFOPLIST_FILE = "signinUsing googleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "login.signinUsing-googleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "signinUsing google";
+			};
+			name = Debug;
+		};
+		9B834E552605740D00639F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37085785A65EA8CBB955ED9D /* Pods-signinUsing google-signinUsing googleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56FNQ2F2V8;
+				INFOPLIST_FILE = "signinUsing googleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "login.signinUsing-googleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "signinUsing google";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B834E1E2605740C00639F07 /* Build configuration list for PBXProject "signinUsing google" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B834E4B2605740D00639F07 /* Debug */,
+				9B834E4C2605740D00639F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B834E4D2605740D00639F07 /* Build configuration list for PBXNativeTarget "signinUsing google" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B834E4E2605740D00639F07 /* Debug */,
+				9B834E4F2605740D00639F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B834E502605740D00639F07 /* Build configuration list for PBXNativeTarget "signinUsing googleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B834E512605740D00639F07 /* Debug */,
+				9B834E522605740D00639F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B834E532605740D00639F07 /* Build configuration list for PBXNativeTarget "signinUsing googleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B834E542605740D00639F07 /* Debug */,
+				9B834E552605740D00639F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B834E1B2605740C00639F07 /* Project object */;
+}
